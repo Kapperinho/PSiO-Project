@@ -1,10 +1,12 @@
 #pragma once
 
+#include "entity.h"
 
-class Snake
+class Snake : public Entity
 {
 public:
-    int x = 15;
-    int y = 6;
+    Snake();
+
+    void setStartPos();
 };
 

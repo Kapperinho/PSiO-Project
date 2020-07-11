@@ -1,7 +1,9 @@
 #pragma once
 
-class Fruit
+#include "entity.h"
+
+class Fruit : public Entity
 {
 public:
-    int x,y;
+    Fruit();
 };
