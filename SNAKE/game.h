@@ -16,6 +16,7 @@ public:
 
 private:
     void GameAction();
+    void menu();
 
     Fruit apple_;
     Snake snake_[100];
@@ -30,4 +31,10 @@ private:
     sf::Font font_;
 
     std::vector<Wall> map_;
+    std::vector<sf::RectangleShape> hearts_;
+
+    sf::Texture wallTexture_;
+    sf::Texture backgroundTexture_;
+    sf::Texture heartTexture_;
+    sf::Texture titleTexture_;
 };

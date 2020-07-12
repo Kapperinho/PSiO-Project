@@ -5,6 +5,6 @@ Fruit::Fruit()
 {
     setSize(sf::Vector2f(SIZE, SIZE));
     setFillColor(sf::Color::Red);
-    setOutlineThickness(1);
+    setOutlineThickness(0);
     setOutlineColor(sf::Color::White);
 }
